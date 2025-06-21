@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 80vh;
+    background-image: url("Assets/bg.jpg");
+    background-position: center center;
+    background-repeat: none;
+    position : relative;
+    background-size: max(1000px,100vw);
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+}
+nav{
+    justify-content: space-around;
+    max-width: 60vw;
+     display: flex;
+      margin:auto;
+   align-items:center;
+   height:62px;
+}
+nav img{
+    position:relative;
+    z-index: 10;
+    color:red;
+    width:114px;
+}
+nav button{
+position: relative;
+z-index: 10;
+}
+
+.text{
+    color:white;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    position:relative;
+}
