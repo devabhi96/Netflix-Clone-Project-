@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -12,12 +13,18 @@
 
     <div class="main">
         <nav>
-            <span><img width="53" ; src="Assets/logo.svg" alt="netflix-logo"> </span>
-            <div>
-                <button>
-                    English
-                </button>
-                <button>
+            <span><img class="netflix-img" width="53" src="Assets/logo.svg" alt="netflix-logo"> </span>
+            <div class="top-right-controls">
+
+                <div class="language-select">
+                    <span class="icon">🌐</span>
+                    <select>
+                        <option>English</option>
+                        <option>हिन्दी</option>
+                    </select>
+                </div>
+
+                <button class="btn2">
                     Sign in
                 </button>
             </div>
@@ -25,11 +32,76 @@
         <div class="box">
         </div>
         <div class="text">
-            <span> Enjoy big movies, hit series and more from ₹149. </span>
-            <span> Join today. Cancel anytime </span>
-            <span> Ready to watch? Enter your email to create or restart your membership. </span>
+            <span>Unlimited movies,
+                TV shows and more</span>
+            <span>Starts at ₹149. Cancel at any time.</span>
+            <span> Ready to watch? Enter your email to create or restart your membership.</span>
+            <div class="input-container">
+                <input type="email" placeholder="Email Address">
+                <button class="btn3">Get Started</button>
+            </div>
         </div>
+        </div>
+        <section class="feature">
+            <div class="feature-text">
+                <h1>Enjoy on your TV</h1>
+                <p>Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="feature-img">
+                <img src="Assets/tv.png" alt="tv">
+            </div>
+        </section>
+
+        <div class="seperation"></div>
     </div>
+
+    <section class="trending">
+        <h2>Trending Now</h2>
+
+        <div class="trending-row">
+            <div class="card">
+                <span class="rank">1</span>
+                <img src="Assets/poster1.jpg" alt="Trending show 1">
+            </div>
+
+            <div class="card">
+                <span class="rank">2</span>
+                <img src="Assets/poster2.jpg" alt="Trending show 2">
+            </div>
+
+            <div class="card">
+                <span class="rank">3</span>
+                <img src="Assets/poster3.jpg" alt="Trending show 3">
+            </div>
+
+            <div class="card">
+                <span class="rank">4</span>
+                <img src="Assets/poster4.jpg" alt="Trending show 4">
+            </div>
+
+            <div class="card">
+                <span class="rank">5</span>
+                <img src="Assets/poster5.jpg" alt="Trending show 5">
+            </div>
+
+            <div class="card">
+                <span class="rank">6</span>
+                <img src="Assets/poster6.jpg" alt="Trending show 6">
+            </div>
+
+            <div class="card">
+                <span class="rank">7</span>
+                <img src="Assets/poster7.jpg" alt="Trending show 7">
+            </div>
+
+            <div class="card">
+                <span class="rank">8</span>
+                <img src="Assets/poster8.jpg" alt="Trending show 8">
+            </div>
+    </section>
+
+
+
 </body>
 
 </html>
